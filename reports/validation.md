@@ -29,7 +29,7 @@ Commands for the completed solution checks (PowerShell):
 ```powershell
 $env:TIKTOKEN_CACHE_DIR = Join-Path (Get-Location) '.cache/tiktoken'
 $env:PYTEST_DISABLE_PLUGIN_AUTOLOAD = '1'
-python -m pytest -q -k 'not help_center_exceeds_context'
+python -m pytest tests -q -k 'not help_center_exceeds_context'
 python question1/run.py
 python question2/run.py
 python -m benchmarks.report --output reports/optimized.json

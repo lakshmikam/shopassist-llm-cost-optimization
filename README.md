@@ -51,7 +51,7 @@ python -m benchmarks.report --output reports/optimized.json
 
 ```bash
 pip install -r requirements.txt
-pytest -q
+python -m pytest tests -q
 python question1/run.py
 python question2/run.py
 ```
@@ -59,7 +59,7 @@ python question2/run.py
 For the short demo/test run, use:
 
 ```bash
-python -m pytest -q -k "not help_center_exceeds_context"
+python -m pytest tests -q -k "not help_center_exceeds_context"
 ```
 
 The focused checks cover parsing, safe failure, policy retrieval, bounded audit
