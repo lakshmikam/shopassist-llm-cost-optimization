@@ -1,0 +1,254 @@
+{
+  "upstream_commit": "d9989e294615046519a1658ff76c4343f465fb0c",
+  "billing": {
+    "input": 3,
+    "cached_input": 0.3,
+    "output": 15
+  },
+  "optimized": {
+    "q1": [
+      {
+        "ticket_id": "T-1001",
+        "expected_action": "REFUND",
+        "action": "REFUND",
+        "expected_kb_article": "returns-within-30-days",
+        "kb_article": "returns-within-30-days",
+        "correct": true,
+        "input_tokens": 402,
+        "output_tokens": 46,
+        "cached_input_tokens": 0,
+        "points": 1896,
+        "llm_calls": 1,
+        "cost_limit": 3000,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "handle_ticket",
+            "input_tokens": 402,
+            "cached_input_tokens": 0,
+            "output_tokens": 46,
+            "points": 1896
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1002",
+        "expected_action": "SEND_ARTICLE",
+        "action": "SEND_ARTICLE",
+        "expected_kb_article": "digital-license-no-refund",
+        "kb_article": "digital-license-no-refund",
+        "correct": true,
+        "input_tokens": 394,
+        "output_tokens": 39,
+        "cached_input_tokens": 0,
+        "points": 1767,
+        "llm_calls": 1,
+        "cost_limit": 3000,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "handle_ticket",
+            "input_tokens": 394,
+            "cached_input_tokens": 0,
+            "output_tokens": 39,
+            "points": 1767
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1003",
+        "expected_action": "ESCALATE_TIER2",
+        "action": "ESCALATE_TIER2",
+        "expected_kb_article": "custom-items-no-replace",
+        "kb_article": "custom-items-no-replace",
+        "correct": true,
+        "input_tokens": 381,
+        "output_tokens": 39,
+        "cached_input_tokens": 0,
+        "points": 1728,
+        "llm_calls": 1,
+        "cost_limit": 3000,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "handle_ticket",
+            "input_tokens": 381,
+            "cached_input_tokens": 0,
+            "output_tokens": 39,
+            "points": 1728
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1004",
+        "expected_action": "REPLACE",
+        "action": "REPLACE",
+        "expected_kb_article": "damage-replacement-7-days",
+        "kb_article": "damage-replacement-7-days",
+        "correct": true,
+        "input_tokens": 383,
+        "output_tokens": 36,
+        "cached_input_tokens": 0,
+        "points": 1689,
+        "llm_calls": 1,
+        "cost_limit": 3000,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "handle_ticket",
+            "input_tokens": 383,
+            "cached_input_tokens": 0,
+            "output_tokens": 36,
+            "points": 1689
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1091",
+        "expected_action": "SEND_ARTICLE",
+        "action": "SEND_ARTICLE",
+        "expected_kb_article": "subscription-cooling-off",
+        "kb_article": "subscription-cooling-off",
+        "correct": true,
+        "input_tokens": 387,
+        "output_tokens": 38,
+        "cached_input_tokens": 0,
+        "points": 1731,
+        "llm_calls": 1,
+        "cost_limit": 3000,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "handle_ticket",
+            "input_tokens": 387,
+            "cached_input_tokens": 0,
+            "output_tokens": 38,
+            "points": 1731
+          }
+        ]
+      }
+    ],
+    "q2": [
+      {
+        "ticket_id": "T-1001",
+        "expected_action": "REFUND",
+        "action": "REFUND",
+        "expected_kb_article": "returns-within-30-days",
+        "kb_article": "returns-within-30-days",
+        "correct": true,
+        "input_tokens": 256,
+        "output_tokens": 46,
+        "cached_input_tokens": 0,
+        "points": 1458,
+        "llm_calls": 1,
+        "cost_limit": 2500,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "compose",
+            "input_tokens": 256,
+            "cached_input_tokens": 0,
+            "output_tokens": 46,
+            "points": 1458
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1002",
+        "expected_action": "SEND_ARTICLE",
+        "action": "SEND_ARTICLE",
+        "expected_kb_article": "digital-license-no-refund",
+        "kb_article": "digital-license-no-refund",
+        "correct": true,
+        "input_tokens": 248,
+        "output_tokens": 39,
+        "cached_input_tokens": 0,
+        "points": 1329,
+        "llm_calls": 1,
+        "cost_limit": 2500,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "compose",
+            "input_tokens": 248,
+            "cached_input_tokens": 0,
+            "output_tokens": 39,
+            "points": 1329
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1003",
+        "expected_action": "ESCALATE_TIER2",
+        "action": "ESCALATE_TIER2",
+        "expected_kb_article": "custom-items-no-replace",
+        "kb_article": "custom-items-no-replace",
+        "correct": true,
+        "input_tokens": 264,
+        "output_tokens": 39,
+        "cached_input_tokens": 0,
+        "points": 1377,
+        "llm_calls": 1,
+        "cost_limit": 2500,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "compose",
+            "input_tokens": 264,
+            "cached_input_tokens": 0,
+            "output_tokens": 39,
+            "points": 1377
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1004",
+        "expected_action": "REPLACE",
+        "action": "REPLACE",
+        "expected_kb_article": "damage-replacement-7-days",
+        "kb_article": "damage-replacement-7-days",
+        "correct": true,
+        "input_tokens": 237,
+        "output_tokens": 36,
+        "cached_input_tokens": 0,
+        "points": 1251,
+        "llm_calls": 1,
+        "cost_limit": 2500,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "compose",
+            "input_tokens": 237,
+            "cached_input_tokens": 0,
+            "output_tokens": 36,
+            "points": 1251
+          }
+        ]
+      },
+      {
+        "ticket_id": "T-1091",
+        "expected_action": "SEND_ARTICLE",
+        "action": "SEND_ARTICLE",
+        "expected_kb_article": "subscription-cooling-off",
+        "kb_article": "subscription-cooling-off",
+        "correct": true,
+        "input_tokens": 248,
+        "output_tokens": 38,
+        "cached_input_tokens": 0,
+        "points": 1314,
+        "llm_calls": 1,
+        "cost_limit": 2500,
+        "within_cost_limit": true,
+        "calls": [
+          {
+            "label": "compose",
+            "input_tokens": 248,
+            "cached_input_tokens": 0,
+            "output_tokens": 38,
+            "points": 1314
+          }
+        ]
+      }
+    ]
+  }
+}

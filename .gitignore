@@ -1,0 +1,16 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+**/runtime/
+.cache/
+
+# Local recordings, presentation preparation, and unrelated workspace files
+*.mp4
+apna-dsa/
+tmp/
+video_edit/
+demo_materials/
+docs/CHATGPT_LEARNING_PROMPT.md
+docs/application.md
